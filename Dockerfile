@@ -13,6 +13,7 @@
  
 FROM  centos:latest
 MAINTAINER dhanuvam@gmail.com
+RUN dnf update
 RUN dnf install -y httpd \
  zip\
  unzip
